@@ -1,0 +1,112 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+  font-family: "Georgia";
+  font-size: 14px;
+  line-height: 1.5;
+
+}
+h1,h2,h3,h4{
+              letter-spacing: 3px;
+            }
+
+h1{
+    text-align: center;
+  }
+
+/* Layout */
+/* text indentation */
+p.a{
+      text-indent: 20px;
+    }
+
+p,ul{
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  list-style-type: square;
+}
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+
+  float: left;
+  width: 30%;
+}
+
+nav {
+  text-decoration: none;
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #BC7447;
+  border-bottom: 5px solid #BC7447;
+}
+
+/* vertical navigation bar with hover and active effect */
+
+.list {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+}
+
+li a.nav {
+    display: block;
+    border: 1px solid #BC7447;
+    color: #BC7447;
+    padding: 35px 20px;
+    text-decoration: underline;
+}
+
+li a.active {
+    background-color: #BC7447;
+    color: white;
+}
+
+a:visited{
+  color:black;
+}
+
+a:focus{
+        color:red;
+}
+
+li a:hover {
+    background-color: white;
+    color: #000;
+    text-decoration: none;
+}
+
+a{
+  color:#BC7447;
+}
+
+[href*="http"] {
+ background: url(../img/link.png) no-repeat 100% 0;
+ background-size: 16px 16px;
+ padding-right: 19px

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form validation</title>
+  </head>
+  <style>
+  /* Div styling */
+  div{
+        background-color: white;
+        border-width: medium;
+        margin-top: auto;
+        margin-bottom: 100px;
+        margin-right: 400px;
+        margin-left: 400px;
+        text-align: left;
+        padding: 20px;
+      }
+  </style>
+  <body style="background-color: lightgray">
+
+  <div>
+    <h1 style="padding-left:20px;">Registration Form</h1>
+      <form style="padding-left:20px;">
+
+        <label for="text">User id:</label><br>
+        <input type="text" name="username" required minlength="5" maxlength="12"  placeholder="Required and must be length 5 to 12."><br>
+
+        <label for="Password">Password:</label><br>
+          <input type="password" name="code" required minlength="7" maxlength="12"  placeholder="Required and must be length 7 to 12."><br>
+
+        <label for="name">Name:</label><br>
+         <input type="text" name="firstname" required placeholder="Required and alphabets only."><br>
+
+        <label for="address">Address:</label><br>
+          <input type="address" name="address" placeholder="Optional."><br>
+
+        <label for="country">Country:</label><br>
+          <select required placeholder="Required. Must select a country.">
+            <option value="country">(Please select a country)
+            <option value="sa">South Africa
+            <option value="usa">United States
+            <option value="india">India
+            <option value="australia">Australia
+          </select><br>
+
+        <label for="code">ZIP code:</label><br>
+          <input type="number" name="zip-code" required placeholder="Required. Must be numeric only."><br>
+
+        <label for="email">Email:</label><br>
+          <input type="email" name="email" required placeholder="Required. Must be valid email."><br>
+
+        <label for="gender">Sex:</label><br>
+          <input type="radio" name="male"  placeholder="Required.">Male
+          <input type="radio" name="female" placeholder="Required.">Female<br>
+
+        <label for="gender">Language:</label><br>
+          <input type="checkbox" name="english"  placeholder="Required.">English
+          <input type="checkbox" name="non-english" placeholder="Required.">Non English<br>
+
+        <label for="gender">About:</label><br>
+          <textarea cols="40" rows="3" placeholder="Optional."></textarea><br>
+
+        <center><input type="submit" name="submit" value="Submit"></center>
+      </form>
+  </body>
+</div>
+</html>
