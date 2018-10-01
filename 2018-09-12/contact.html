@@ -11,25 +11,28 @@
 <body>
     <font face="sans-serif">
 
-    <!--header-->
-
-    <header>
-            <center><img width="20%" height="20%" src="img/logo.jpg"></center>
-
-            <!--nav-->
-            <center>
-            <nav>
-              <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a class= "active" href="contact.html">Contact</a></li>
-              </ul>
-            </nav>
-            </center>
-
-            <!--nav close-->
-
-        </header>
+        <div class="header-container">
+           <!--header-->
+                
+           <header class="wrapper clearfix">
+             <img class = "title" width="20%" height="20%" src="img/logo.png">
+                
+                  <!--nav-->
+                                
+                <nav>
+                    <ul>
+                        <li><a class= "active" href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                                <!--nav close-->
+                
+            </header>
+                
+                        <!--header close-->
+        </div>
 
         <!--header close-->
 
@@ -46,23 +49,24 @@
 
             <!--contactForm-->
             <center>
-                <form class="page">
-
-                    <p>
-                        First Name:<br>
-                    <input type="text" name="firstname" placeholder="First Name" required>
-                    </p>
-                    <p>
-                        Email:<br>
-                    <input type="email" name="email" placeholder="youremail@example.com" required>
-                    </p>
-                    <p>
-                        Comments:<br>
-                    <textarea rows="5" cols="12" value="submit"></textarea>
-                    </p>
-                    <p>
-                    <input type="submit" name="submit" value="submit">
-                    </p>
+                <form class="">
+                    <div>
+                        <p>
+                            First Name:<br>
+                        <input type="text" name="firstname" placeholder="First Name" required>
+                        </p>
+                        <p>
+                            Email:<br>
+                        <input type="email" name="email" placeholder="youremail@example.com" required>
+                        </p>
+                        <p>
+                            Comments:<br>
+                        <textarea rows="5" cols="12" value="submit"></textarea>
+                        </p>
+                        <p>
+                        <input type="submit" name="submit" value="submit">
+                        </p>
+                    </div>
                 </form>
             </center>
 

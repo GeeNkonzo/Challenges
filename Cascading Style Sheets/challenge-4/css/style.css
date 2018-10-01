@@ -1,0 +1,58 @@
+.container{
+    width:80%;
+    margin: 0 auto;
+
+}
+
+.blue{
+    width: 200px;
+    background-color: blue;
+    height: 200px;
+    float: left;
+  }
+.red{
+    width: 200px;
+    background-color: red;
+    height:200px;
+    float: left;
+  }
+.yellow{
+    width: 200px;
+    background-color: yellow;
+    height:200px;
+    float: left;
+  }
+  .green{
+    width: 200px;
+    background-color: green;
+    height:200px;
+    float: left;
+  }
+
+  .blue:hover {
+    width: 200px;
+    background-color: pink;
+    height: 200px;
+    float: left;
+
+  }
+
+:active.red{
+    width: 200px;
+    background-color: #bada55;
+    height:200px;
+    float: left;
+}
+
+.green:hover {
+    width: 600px;
+    background-color: pink;
+    height: 200px;
+    float: left;
+}
+
+.yellow:hover {
+    width: 600px;
+    background-color: pink;
+    height: 200px;
+    float: left;
